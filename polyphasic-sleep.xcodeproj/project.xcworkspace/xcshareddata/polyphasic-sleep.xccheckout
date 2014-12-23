@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA191C7C-2971-47B1-B419-1252C71E13A0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>polyphasic-sleep</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7DA05A20C320A3E54F2A44216AF40BCF002AB0FC</key>
+		<string>https://github.com/ansmkn/polyphasic-sleep</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>polyphasic-sleep/polyphasic-sleep.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7DA05A20C320A3E54F2A44216AF40BCF002AB0FC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ansmkn/polyphasic-sleep</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7DA05A20C320A3E54F2A44216AF40BCF002AB0FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7DA05A20C320A3E54F2A44216AF40BCF002AB0FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>project_iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

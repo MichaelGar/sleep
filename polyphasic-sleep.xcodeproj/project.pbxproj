@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2187391A3F408C00B19068 /* IntervalSleep.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2187381A3F408C00B19068 /* IntervalSleep.m */; };
+		CEA271AB1A48BA0D00CADBE0 /* Sleep.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA271AA1A48BA0D00CADBE0 /* Sleep.m */; };
+		CEA271AE1A48BD3200CADBE0 /* MakerSleeps.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA271AD1A48BD3200CADBE0 /* MakerSleeps.m */; };
+		CEBB983B1A4847690039CD1A /* testController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBB983A1A4847690039CD1A /* testController.m */; };
+		EAB5515E1A3CA3F60089556D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5515D1A3CA3F60089556D /* main.m */; };
+		EAB551611A3CA3F60089556D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB551601A3CA3F60089556D /* AppDelegate.m */; };
+		EAB551641A3CA3F60089556D /* polyphasic_sleep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAB551621A3CA3F60089556D /* polyphasic_sleep.xcdatamodeld */; };
+		EAB551671A3CA3F60089556D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB551661A3CA3F60089556D /* ViewController.m */; };
+		EAB5516A1A3CA3F60089556D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB551681A3CA3F60089556D /* Main.storyboard */; };
+		EAB5516C1A3CA3F60089556D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB5516B1A3CA3F60089556D /* Images.xcassets */; };
+		EAB5516F1A3CA3F60089556D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAB5516D1A3CA3F60089556D /* LaunchScreen.xib */; };
+		EAB5517B1A3CA3F70089556D /* polyphasic_sleepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5517A1A3CA3F70089556D /* polyphasic_sleepTests.m */; };
+		EAB551891A3D13FE0089556D /* ViewSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB551881A3D13FE0089556D /* ViewSettings.m */; };
+		EAB5518F1A3D17FA0089556D /* 640px-Biphasic.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB5518A1A3D17FA0089556D /* 640px-Biphasic.svg.png */; };
+		EAB551901A3D17FA0089556D /* 640px-Dymaxion.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB5518B1A3D17FA0089556D /* 640px-Dymaxion.svg.png */; };
+		EAB551911A3D17FA0089556D /* 640px-Everyman.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB5518C1A3D17FA0089556D /* 640px-Everyman.svg.png */; };
+		EAB551921A3D17FA0089556D /* 640px-Uberman.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB5518D1A3D17FA0089556D /* 640px-Uberman.svg.png */; };
+		EAB551931A3D17FA0089556D /* Monophasic.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = EAB5518E1A3D17FA0089556D /* Monophasic.svg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EAB551751A3CA3F60089556D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EAB551501A3CA3F60089556D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAB551571A3CA3F60089556D;
+			remoteInfo = "polyphasic-sleep";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2187371A3F408C00B19068 /* IntervalSleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntervalSleep.h; sourceTree = "<group>"; };
+		CE2187381A3F408C00B19068 /* IntervalSleep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntervalSleep.m; sourceTree = "<group>"; };
+		CEA271A91A48BA0D00CADBE0 /* Sleep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sleep.h; sourceTree = "<group>"; };
+		CEA271AA1A48BA0D00CADBE0 /* Sleep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sleep.m; sourceTree = "<group>"; };
+		CEA271AC1A48BD3200CADBE0 /* MakerSleeps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MakerSleeps.h; sourceTree = "<group>"; };
+		CEA271AD1A48BD3200CADBE0 /* MakerSleeps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MakerSleeps.m; sourceTree = "<group>"; };
+		CEBB98391A4847690039CD1A /* testController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testController.h; sourceTree = "<group>"; };
+		CEBB983A1A4847690039CD1A /* testController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testController.m; sourceTree = "<group>"; };
+		EAB551581A3CA3F60089556D /* polyphasic-sleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "polyphasic-sleep.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB5515C1A3CA3F60089556D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB5515D1A3CA3F60089556D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAB5515F1A3CA3F60089556D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EAB551601A3CA3F60089556D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB551631A3CA3F60089556D /* polyphasic_sleep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = polyphasic_sleep.xcdatamodel; sourceTree = "<group>"; };
+		EAB551651A3CA3F60089556D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EAB551661A3CA3F60089556D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EAB551691A3CA3F60089556D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAB5516B1A3CA3F60089556D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAB5516E1A3CA3F60089556D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAB551741A3CA3F60089556D /* polyphasic-sleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "polyphasic-sleepTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB551791A3CA3F70089556D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB5517A1A3CA3F70089556D /* polyphasic_sleepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = polyphasic_sleepTests.m; sourceTree = "<group>"; };
+		EAB551871A3D13FE0089556D /* ViewSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewSettings.h; sourceTree = "<group>"; };
+		EAB551881A3D13FE0089556D /* ViewSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewSettings.m; sourceTree = "<group>"; };
+		EAB5518A1A3D17FA0089556D /* 640px-Biphasic.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640px-Biphasic.svg.png"; sourceTree = "<group>"; };
+		EAB5518B1A3D17FA0089556D /* 640px-Dymaxion.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640px-Dymaxion.svg.png"; sourceTree = "<group>"; };
+		EAB5518C1A3D17FA0089556D /* 640px-Everyman.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640px-Everyman.svg.png"; sourceTree = "<group>"; };
+		EAB5518D1A3D17FA0089556D /* 640px-Uberman.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640px-Uberman.svg.png"; sourceTree = "<group>"; };
+		EAB5518E1A3D17FA0089556D /* Monophasic.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Monophasic.svg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB551551A3CA3F60089556D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB551711A3CA3F60089556D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE21873A1A3F447100B19068 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CE2187371A3F408C00B19068 /* IntervalSleep.h */,
+				CE2187381A3F408C00B19068 /* IntervalSleep.m */,
+				CEA271A91A48BA0D00CADBE0 /* Sleep.h */,
+				CEA271AA1A48BA0D00CADBE0 /* Sleep.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		EAB5514F1A3CA3F60089556D = {
+			isa = PBXGroup;
+			children = (
+				EAB5515A1A3CA3F60089556D /* polyphasic-sleep */,
+				EAB551771A3CA3F70089556D /* polyphasic-sleepTests */,
+				EAB551591A3CA3F60089556D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB551591A3CA3F60089556D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB551581A3CA3F60089556D /* polyphasic-sleep.app */,
+				EAB551741A3CA3F60089556D /* polyphasic-sleepTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB5515A1A3CA3F60089556D /* polyphasic-sleep */ = {
+			isa = PBXGroup;
+			children = (
+				CE21873A1A3F447100B19068 /* models */,
+				EAB551871A3D13FE0089556D /* ViewSettings.h */,
+				EAB551881A3D13FE0089556D /* ViewSettings.m */,
+				CEBB98391A4847690039CD1A /* testController.h */,
+				CEBB983A1A4847690039CD1A /* testController.m */,
+				CEA271AC1A48BD3200CADBE0 /* MakerSleeps.h */,
+				CEA271AD1A48BD3200CADBE0 /* MakerSleeps.m */,
+				EAB5515F1A3CA3F60089556D /* AppDelegate.h */,
+				EAB551601A3CA3F60089556D /* AppDelegate.m */,
+				EAB551651A3CA3F60089556D /* ViewController.h */,
+				EAB551661A3CA3F60089556D /* ViewController.m */,
+				EAB551681A3CA3F60089556D /* Main.storyboard */,
+				EAB5516B1A3CA3F60089556D /* Images.xcassets */,
+				EAB5516D1A3CA3F60089556D /* LaunchScreen.xib */,
+				EAB551621A3CA3F60089556D /* polyphasic_sleep.xcdatamodeld */,
+				EAB5515B1A3CA3F60089556D /* Supporting Files */,
+			);
+			path = "polyphasic-sleep";
+			sourceTree = "<group>";
+		};
+		EAB5515B1A3CA3F60089556D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5518A1A3D17FA0089556D /* 640px-Biphasic.svg.png */,
+				EAB5518B1A3D17FA0089556D /* 640px-Dymaxion.svg.png */,
+				EAB5518C1A3D17FA0089556D /* 640px-Everyman.svg.png */,
+				EAB5518D1A3D17FA0089556D /* 640px-Uberman.svg.png */,
+				EAB5518E1A3D17FA0089556D /* Monophasic.svg.png */,
+				EAB5515C1A3CA3F60089556D /* Info.plist */,
+				EAB5515D1A3CA3F60089556D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAB551771A3CA3F70089556D /* polyphasic-sleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				EAB5517A1A3CA3F70089556D /* polyphasic_sleepTests.m */,
+				EAB551781A3CA3F70089556D /* Supporting Files */,
+			);
+			path = "polyphasic-sleepTests";
+			sourceTree = "<group>";
+		};
+		EAB551781A3CA3F70089556D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAB551791A3CA3F70089556D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB551571A3CA3F60089556D /* polyphasic-sleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB5517E1A3CA3F70089556D /* Build configuration list for PBXNativeTarget "polyphasic-sleep" */;
+			buildPhases = (
+				EAB551541A3CA3F60089556D /* Sources */,
+				EAB551551A3CA3F60089556D /* Frameworks */,
+				EAB551561A3CA3F60089556D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "polyphasic-sleep";
+			productName = "polyphasic-sleep";
+			productReference = EAB551581A3CA3F60089556D /* polyphasic-sleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EAB551731A3CA3F60089556D /* polyphasic-sleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB551811A3CA3F70089556D /* Build configuration list for PBXNativeTarget "polyphasic-sleepTests" */;
+			buildPhases = (
+				EAB551701A3CA3F60089556D /* Sources */,
+				EAB551711A3CA3F60089556D /* Frameworks */,
+				EAB551721A3CA3F60089556D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAB551761A3CA3F60089556D /* PBXTargetDependency */,
+			);
+			name = "polyphasic-sleepTests";
+			productName = "polyphasic-sleepTests";
+			productReference = EAB551741A3CA3F60089556D /* polyphasic-sleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB551501A3CA3F60089556D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Artem Kinyaykin";
+				TargetAttributes = {
+					EAB551571A3CA3F60089556D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EAB551731A3CA3F60089556D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EAB551571A3CA3F60089556D;
+					};
+				};
+			};
+			buildConfigurationList = EAB551531A3CA3F60089556D /* Build configuration list for PBXProject "polyphasic-sleep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB5514F1A3CA3F60089556D;
+			productRefGroup = EAB551591A3CA3F60089556D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB551571A3CA3F60089556D /* polyphasic-sleep */,
+				EAB551731A3CA3F60089556D /* polyphasic-sleepTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB551561A3CA3F60089556D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB551921A3D17FA0089556D /* 640px-Uberman.svg.png in Resources */,
+				EAB551901A3D17FA0089556D /* 640px-Dymaxion.svg.png in Resources */,
+				EAB5516A1A3CA3F60089556D /* Main.storyboard in Resources */,
+				EAB5518F1A3D17FA0089556D /* 640px-Biphasic.svg.png in Resources */,
+				EAB551931A3D17FA0089556D /* Monophasic.svg.png in Resources */,
+				EAB551911A3D17FA0089556D /* 640px-Everyman.svg.png in Resources */,
+				EAB5516F1A3CA3F60089556D /* LaunchScreen.xib in Resources */,
+				EAB5516C1A3CA3F60089556D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB551721A3CA3F60089556D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB551541A3CA3F60089556D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBB983B1A4847690039CD1A /* testController.m in Sources */,
+				CEA271AE1A48BD3200CADBE0 /* MakerSleeps.m in Sources */,
+				CE2187391A3F408C00B19068 /* IntervalSleep.m in Sources */,
+				EAB551641A3CA3F60089556D /* polyphasic_sleep.xcdatamodeld in Sources */,
+				CEA271AB1A48BA0D00CADBE0 /* Sleep.m in Sources */,
+				EAB551891A3D13FE0089556D /* ViewSettings.m in Sources */,
+				EAB551611A3CA3F60089556D /* AppDelegate.m in Sources */,
+				EAB551671A3CA3F60089556D /* ViewController.m in Sources */,
+				EAB5515E1A3CA3F60089556D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAB551701A3CA3F60089556D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB5517B1A3CA3F70089556D /* polyphasic_sleepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EAB551761A3CA3F60089556D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EAB551571A3CA3F60089556D /* polyphasic-sleep */;
+			targetProxy = EAB551751A3CA3F60089556D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EAB551681A3CA3F60089556D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB551691A3CA3F60089556D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EAB5516D1A3CA3F60089556D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAB5516E1A3CA3F60089556D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAB5517C1A3CA3F70089556D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAB5517D1A3CA3F70089556D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB5517F1A3CA3F70089556D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "polyphasic-sleep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EAB551801A3CA3F70089556D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "polyphasic-sleep/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EAB551821A3CA3F70089556D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "polyphasic-sleepTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polyphasic-sleep.app/polyphasic-sleep";
+			};
+			name = Debug;
+		};
+		EAB551831A3CA3F70089556D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "polyphasic-sleepTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/polyphasic-sleep.app/polyphasic-sleep";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB551531A3CA3F60089556D /* Build configuration list for PBXProject "polyphasic-sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB5517C1A3CA3F70089556D /* Debug */,
+				EAB5517D1A3CA3F70089556D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB5517E1A3CA3F70089556D /* Build configuration list for PBXNativeTarget "polyphasic-sleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB5517F1A3CA3F70089556D /* Debug */,
+				EAB551801A3CA3F70089556D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB551811A3CA3F70089556D /* Build configuration list for PBXNativeTarget "polyphasic-sleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB551821A3CA3F70089556D /* Debug */,
+				EAB551831A3CA3F70089556D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EAB551621A3CA3F60089556D /* polyphasic_sleep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EAB551631A3CA3F60089556D /* polyphasic_sleep.xcdatamodel */,
+			);
+			currentVersion = EAB551631A3CA3F60089556D /* polyphasic_sleep.xcdatamodel */;
+			path = polyphasic_sleep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EAB551501A3CA3F60089556D /* Project object */;
+}
